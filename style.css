@@ -1,0 +1,100 @@
+body {
+  margin: 0 auto;
+  padding: 0;
+  font-family: "Bungee";
+  font-size: 20px;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px;
+  width: 100%;
+}
+.nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  margin: 20px;
+}
+.nav a {
+  color: #7944e6;
+  text-decoration: none;
+  padding: 10px;
+  margin-right: 10px;
+}
+a:hover {
+  color: #10fdff;
+}
+.about-section {
+  align-items: center;
+  justify-content: space-around;
+  background-color: #ff00ff;
+  height: 50%;
+  width: auto;
+  margin: 20px 20px;
+  padding: 20px;
+}
+.about-section img {
+  display: flex;
+  text-align: center;
+  margin: 20px auto;
+  width: 50%;
+  height: 50%;
+}
+.about {
+  margin: 0px 10px;
+}
+.img {
+  margin-top: 10px;
+}
+.para {
+  color: black;
+  margin: 0 10px;
+}
+.coffee .img1 {
+  width: 300px;
+  height: 400px;
+}
+.coffee {
+  border: 4px solid #7944e6;
+  width: 400px;
+  height: 500px;
+  margin: 20px auto;
+  display: block;
+  justify-content: center;
+  text-align: center;
+}
+.cream .img2 {
+  width: 300px;
+  height: 400px;
+}
+.cream {
+  border: 4px solid #7944e6;
+  width: 400px;
+  height: 500px;
+  margin: 20px auto;
+  display: block;
+  justify-content: center;
+  text-align: center;
+}
+.cookie .img3 {
+  width: 300px;
+  height: 400px;
+}
+.cookie {
+  border: 4px solid #7944e6;
+  width: 400px;
+  height: 500px;
+  margin: 20px auto;
+  display: block;
+  justify-content: center;
+  text-align: center;
+}
+.viewmenu a {
+  display: block;
+  text-decoration: none;
+  justify-content: center;
+  margin: 0 auto;
+}
